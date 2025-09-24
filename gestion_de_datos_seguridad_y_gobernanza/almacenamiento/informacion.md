@@ -134,3 +134,90 @@ CARGAS DE TRABAJO QUE REQUIEREN ALTO PROCESAMIENTO / 75 IOPS/GB
 ULTRA ALTO RENDIMIENTO - ULTRA HIGH
 PARA CARAGS DE TRABAJO CON LOS MAYORES REQUISITOS DE I/O / 90/225 IOPS/GB
 
+# ENCRYPTED BLOCK VOLUMES
+BRING YOUR OWN KEYS
+IN-TRANSIT ENCRYPTION
+
+# BLOCK VOLUME
+(MULTIPLES VMS PUEDEN ESCRIBIR Y LEER DATOS A UN UNICO BLOCK VOLUME)
+
+# REPLICACION DE BLOCK VOLUMES 
+REPLICA A TRAVES DE REGIONES
+RECUPERACION ANTE DESASTRES
+MIGRACIONES
+EXPANSION DE NEGOCIO
+
+REPLICACION ASINCRONA
+
+# VOLUME GROUPS
+AGRUPCION DE VOLUMENES PARA UN MANEJO MAS FACIL
+COPIAS DE SEGURIDAD DE MULTIPLES VOLUMENES
+ENTRE MULTIPLES INSTANCIAS
+
+# RENDIMENSIONAMIENTO BLOCK VOLUMES
+ONLINE
+OFFLINE
+
+# FILE STORAGE
+
+COLECCION JERARQUICA DE DOCUMENTOS ORGANIZADOS EN CARPETAS
+
+PERMITE QUE VARIAS INSTANCIAS DE COMPUTO(EJECUTEN LINUX, WINDOWS, ETC.)
+MONTEN EL MISMO SISTEMA DE ARCHIVOS Y ACCEDAN A LOS MISMOS DATOS AL MISMO TIEMPO.
+ESTO ES IDEAL PARA APLICACIONES DE NECESITAN COMPARTIR ARCHIVOS, COMO SERVIDORES WEB, REPOSITORIOS DE CODIGO, HERRAMIENTAS DE COLABORACION, Y APLICACIONES PERSONALIZADAS.
+
+# ALMACENAMIENTO DE ARCHIVOS
+![alt text](image-5.png)
+
+ALMACENAMIENTO COMPRTIDO ENTRE INSTANCIAS
+SOPORTA NFSV3
+PROTECCION DE DATOS: SNAPSHOTS
+SEGURIDAD: CIFRADO EN DATA-AT-REST AES-256 / IN-TRANSIT TLS
+
+![alt text](image-6.png)
+## DISTRIBUTED FILE SYSTEM
+LIUX - NFS / NETWORK FILE SYSTEM
+WINDOWS - SMB / SERVER MESSAGING BLOCK
+
+SOPORTE PARA UIX Y WINDOWS
+
+PERMITE CREAR, ELIMINAR, LEER, ESCRIBIR, COMPARTIR Y BLOQUEAR.
+
+SOPORTE PARA LA MAYORIA DE SISTEMAS OPERATIVOS E HIPERVISORES
+
+![alt text](image-7.png)
+
+# Nivel de almacenamiento archive
+Has creado un bucket de Almacenamiento de Objetos en el nivel Archive. ¿Cuál afirmación NO es válida para el nivel de almacenamiento Archive?
+
+El bucket de almacenamiento Archive puede actualizarse al almacenamiento Standard.
+
+Un bucket de almacenamiento Archive no puede actualizarse al nivel Standard. Además, la duración mínima para almacenar objetos en el nivel Archive es de 90 días, y los objetos no pueden accederse directamente; deben restaurarse al nivel Standard antes de poder leerse. 
+
+# Recursos de OCI Block Volume
+
+¿Qué recurso del servicio Oracle Cloud Infrastructure Block Volume garantiza la durabilidad de los datos y la protección contra fallos de hardware? 
+Replicación
+
+El servicio OCI Block Volume utiliza replicación para garantizar la durabilidad de los datos y la protección contra fallos de hardware. Los datos se replican automáticamente en varios dispositivos de almacenamiento dentro del mismo dominio de disponibilidad. 
+
+#  Rendimiento del OCI Block Volume
+
+Tienes una carga de trabajo de base de datos de alto rendimiento que requiere al menos 90 IOPS/GB y 90,000 IOPS por volumen. ¿Qué nivel de rendimiento del OCI Block Volume puede usarse para cumplir con este requisito? 
+
+Ultra alto rendimiento
+
+El nivel Ultra High Performance en el servicio OCI Block Volume puede proporcionar hasta 225 IOPS/GB, con un máximo de 300.000 IOPS por volumen, siendo recomendado para cargas de trabajo con los mayores requisitos de I/O. 
+
+# Sobre OCI Object Storage Service
+En el Oracle Cloud Infrastructure Object Storage Service, ¿cuál es el propósito principal de una URL de solicitud preautenticada? 
+Proporcionar acceso temporal y seguro a un objeto específico.
+
+Una URL de solicitud preautenticada en OCI Object Storage permite generar una URL única con un tiempo de expiración predefinido, proporcionando acceso temporal y seguro a un objeto específico sin necesidad de autenticación adicional.
+
+# Menor costo de almacenamiento
+Deseas almacenar el backup de una base de datos en almacenamiento en la nube por un período prolongado con el menor costo de almacenamiento. ¿Qué nivel de almacenamiento de objetos usarías para almacenar estos archivos de backup?
+
+    Archive
+
+El nivel Archive está diseñado para almacenar datos raramente accedidos y que requieren largos períodos de retención, siendo ideal para respaldos de bases de datos que necesitan almacenarse por mucho tiempo a un costo reducido. 
